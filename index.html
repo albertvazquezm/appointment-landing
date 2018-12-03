@@ -1,691 +1,842 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<!--
-
-Page    : index / MobApp
-Version : 1.0
-Author  : Colorlib
-URI     : https://colorlib.com
-
- -->
 
 <head>
-    <title>Appointment - El programa de citas más sencillo e inteligente del mundo</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Mobland - Mobile App Landing Page Template">
-    <meta name="keywords" content="HTML5, bootstrap, mobile, app, landing, ios, android, responsive">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <!-- Font -->
-    <link rel="dns-prefetch" href="//fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
+    <!-- Title -->
+    <title>appointment - Bienvenido a la agenda del futuro</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Themify Icons -->
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <!-- Owl carousel -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <!-- Main css -->
-    <link href="css/style.css" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Stylesheet -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+
 </head>
 
-<body data-spy="scroll" data-target="#navbar" data-offset="30">
+<body>
+    <!-- Preloader Start -->
+    <div id="preloader">
+        <div class="colorlib-load"></div>
+    </div>
 
-    <!-- Nav Menu -->
-
-    <div class="nav-menu fixed-top">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <nav class="navbar navbar-dark navbar-expand-lg">
-                        <a class="navbar-brand" href="index.html"><strong>app</strong>ointment</a> <button class="navbar-toggler"
-                            type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
-                            aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbar">
-                            <ul class="navbar-nav ml-auto">
-                                <li class="nav-item"> <a class="nav-link active" href="#home">HOME <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item"> <a class="nav-link" href="#features">FEATURES</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#gallery">GALLERY</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#pricing">PRICING</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#contact">CONTACT</a> </li>
-                                <li class="nav-item"><a href="#" class="btn btn-outline-light my-3 my-sm-0 ml-lg-3">Download</a></li>
-                            </ul>
-                        </div>
-                    </nav>
+    <!-- ***** Header Area Start ***** -->
+    <header class="header_area animated">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <!-- Menu Area Start -->
+                <div class="col-12 col-lg-10">
+                    <div class="menu_area">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <!-- Logo -->
+                            <a class="navbar-brand" href="#">appointment</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                            <!-- Menu Area -->
+                            <div class="collapse navbar-collapse" id="ca-navbar">
+                                <ul class="navbar-nav ml-auto" id="nav">
+                                    <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#screenshot">Screenshot</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                                </ul>
+                                <div class="sing-up-button d-lg-none">
+                                    <a href="#">Regístrate</a>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <!-- Signup btn -->
+                <div class="col-12 col-lg-2">
+                    <div class="sing-up-button d-none d-lg-block">
+                        <a href="#">Regístrate</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
-
-    <header class="bg-gradient" id="home">
-        <div class="container mt-5">
-            <h1>Di hola al gestor de citas del <span style="text-decoration:line-through">futuro</span> presente</h1>
-            <p class="tagline"><strong>app</strong>ointment</a> gestiona tu agenda de forma inteligente y automática</p>
-        </div>
-        <div class="img-holder mt-3"><img src="images/iphonex.png" alt="phone" class="img-fluid"></div>
     </header>
+    <!-- ***** Header Area End ***** -->
 
-    <div class="client-logos my-5">
-        <div class="container text-center">
-            <img src="images/client-logos.png" alt="client logos" class="img-fluid">
-        </div>
-    </div>
-
-    <div class="section light-bg" id="features">
-
-
-        <div class="container">
-
-            <div class="section-title">
-                <h3>Cerrar una agenda con pacientes</h3>
+    <!-- ***** Wellcome Area Start ***** -->
+    <section class="wellcome_area clearfix" id="home">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 col-md">
+                    <div class="wellcome-heading">
+                        <h2>appointment</h2>
+                        <h3>a</h3>
+                        <p>Gestión inteligente de agenda y citas</p>
+                    </div>
+                    <div class="get-start-area">
+                        <!-- Form Start -->
+                        <form action="#" method="post" class="form-inline">
+                            <input type="email" class="form-control email" placeholder="name@company.com">
+                            <input type="submit" class="submit" value="Prúebalo">
+                        </form>
+                        <!-- Form End -->
+                    </div>
+                </div>
             </div>
+        </div>
+        <!-- Welcome thumb -->
+        <div class="welcome-thumb wow fadeInDown" data-wow-delay="0.5s">
+            <img src="img/bg-img/welcome-img.png" alt="">
+        </div>
+    </section>
+    <!-- ***** Wellcome Area End ***** -->
 
+    <!-- ***** Special Area Start ***** -->
+    <section class="special-area bg-white section_padding_100" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Section Heading Area -->
+                    <div class="section-heading text-center">
+                        <h2>¿Por qué es especial?</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
 
             <div class="row">
-                <div class="col-12 col-lg-1"></div>
-                <div class="col-12 col-lg-5">
-                    <div class="card features">
-                        <div class="card-body">
-                            <div class="media">
-                                <span class="ti-face-sad gradient-fill ti-3x mr-3"></span>
-                                <div class="media-body">
-                                    <h4 class="card-title">Otros programas</h4>
-                                    <ul>
-                                        <li>Revisa la agenda y los pacientes del día que quieres cerrar</li>
-                                        <li>
-                                            Por cada paciente:
-                                            <ul class="card-text">
-                                                <li>Llama o escríbele</li>
-                                                <li>Concreta con él un nuevo día y hora</li>
-                                                <li>Crea los nuevos eventos</li>
-                                            </ul>
-                                        </li>
-
-                                    </ul>
-                                </div>
-                            </div>
+                <!-- Single Special Area -->
+                <div class="col-12 col-md-4">
+                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="single-icon">
+                            <i class="ti-crown" aria-hidden="true"></i>
                         </div>
+                        <h4>Efecto "wow" para tus clientes</h4>
+                            <ul>
+                                <li>Notificaciones inteligentes via whatsapp</li>
+                                <li>Reserva, cancela, cambia o avisa de que has llegado en segundos, online</li>
+                                <li>Notificaciones de retrasos en la agenda en tiempo real</li>
+                                <li>Opción "Deseo acudir antes si hay cancelaciones"</li>
+                            </ul>
+                        </p>
                     </div>
                 </div>
-                <div class="col-12 col-lg-5">
-                    <div class="card features">
-                        <div class="card-body">
-                            <div class="media">
-                                <span class="ti-face-smile gradient-fill ti-3x mr-3"></span>
-                                <div class="media-body">
-                                    <h4 class="card-title"><strong>app</strong>ointment</h4>
-                                    <ul class="card-text">
-                                        <li>Abre appointment y escribe: <em>"Cierra la agenda mañana de 9 a 12h"</em></li>
-                                        <li>Apointment responde: <strong>Vale. ¿Aviso y reasigno a los pacientes?</strong></li>
-                                        <li>Responde <em>sí</em></li>
-                                    </ul>
-                                    <p class="card-text"></p>
-                                </div>
-                            </div>
+                <!-- Single Special Area -->
+                <div class="col-12 col-md-4">
+                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="single-icon">
+                            <i class="ti-wand" aria-hidden="true"></i>
                         </div>
+                        <h4>Tu agenda, automatizada</h4>
+                        <ul>
+                            <li>Gestión de cancelaciones y reasignación automática</li>
+                            <li>Gestión automatizada de citas en caso de cierre o apertura de agenda</li>
+                        </ul>
                     </div>
                 </div>
-            </div>
-        </div>
-
-    </div>
-
-
-    <div class="section light-bg" id="features">
-
-
-        <div class="container">
-
-            <div class="section-title">
-                <h3>Cancelan una cita con pocas horas de antelación</h3>
-            </div>
-
-
-            <div class="row">
-                <div class="col-12 col-lg-1"></div>
-                <div class="col-12 col-lg-5">
-                    <div class="card features">
-                        <div class="card-body">
-                            <div class="media">
-                                <span class="ti-face-sad gradient-fill ti-3x mr-3"></span>
-                                <div class="media-body">
-                                    <h4 class="card-title">Otros programas</h4>
-                                    <p class="card-text">Si te das cuenta a tiempo, busca otro paciente en la
-                                        lista de espera para que pueda acudir en el hueco y llámale.</p>
-                                </div>
-                            </div>
+                <!-- Single Special Area -->
+                <div class="col-12 col-md-4">
+                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="single-icon">
+                            <i class="ti-stats-up" aria-hidden="true"></i>
                         </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-5">
-                    <div class="card features">
-                        <div class="card-body">
-                            <div class="media">
-                                <span class="ti-face-smile gradient-fill ti-3x mr-3"></span>
-                                <div class="media-body">
-                                    <h4 class="card-title"><strong>app</strong>ointment</h4>
-                                    <p class="card-text">Appointment detecta cancelaciones. Tu no tienes por qué
-                                        enterarte.</p>
-                                    <ul class="card-text">
-                                        <li>Propone una nueva fecha y hora al paciente que cancela</li>
-                                        <li>Busca en la agenda qué pacientes con una cita posterior estarían dispuestos
-                                            a acudir en el hueco cancelado y les notifica. Si uno acepta, el hueco se
-                                            ha cerrado.
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                        <h4>Mejora tus números</h4>
+                        <ul>
+                            <li>Reduce el absentismo gracias a las notificaciones inteligentes, la facilidad de cancelar y el indicador de citas fallidas</li>
+                            <li>Clientes felices, menor tasa de abandono</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-
-    </div>
-
-
-    <div class="section light-bg" id="features">
-
-
+        <!-- Special Description Area -->
+        <div class="special_description_area mt-150">
             <div class="container">
-    
-                <div class="section-title">
-                    <h3>Muchos pacientes olvidan sus citas o no cancelan</h3>
-                </div>
-    
-    
                 <div class="row">
-                    <div class="col-12 col-lg-1"></div>
-                    <div class="col-12 col-lg-5">
-                        <div class="card features">
-                            <div class="card-body">
-                                <div class="media">
-                                    <span class="ti-face-sad gradient-fill ti-3x mr-3"></span>
-                                    <div class="media-body">
-                                        <h4 class="card-title">Otros programas</h4>
-                                        <p class="card-text">Otros programas ya notifican al cliente mediante email o sms</p>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="col-lg-6">
+                        <div class="special_description_img">
+                            <img src="img/bg-img/special.png" alt="">
                         </div>
                     </div>
-                    <div class="col-12 col-lg-5">
-                        <div class="card features">
-                            <div class="card-body">
-                                <div class="media">
-                                    <span class="ti-face-smile gradient-fill ti-3x mr-3"></span>
-                                    <div class="media-body">
-                                        <h4 class="card-title"><strong>app</strong>ointment</h4>
-                                        <p class="card-text">Appointment está pensado para reducir el ausentismo en las visitas. Así lo hace:</p>
-                                        <ul class="card-text">
-                                            <li>Permite cancelar la cita con un solo botón (y reasignarla después)</li>
-                                            <li>Usa notificaciones push siempre que puede, mucho más dinámicas y atractivas que emails o sms</li>
-                                            <li>Dispone de una aplicación web donde, además de aparecer las citas pendientes, hay un indicador de 
-                                                ausencias sin cancelar. Nadie quiere que ese indicador sea rojo :)
-                                            </li>
-                                            <li>Usa inteligencia artificial. Appointment sabe cuándo es mejor notificar a cada paciente para asegurarse
-                                                 de que acude. Además, aprende de forma contínua.
-                                            </li>
-                                        </ul>
-                                    </div>
+                    <div class="col-lg-6 col-xl-5 ml-xl-auto">
+                        <div class="special_description_content">
+                            <h2>La aplicación de gestión de citas</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                            <div class="app-download-area">
+                                <div class="app-download-btn wow fadeInUp" data-wow-delay="0.2s">
+                                    <!-- Google Store Btn -->
+                                    <a href="#">
+                                        <i class="fa fa-android"></i>
+                                        <p class="mb-0"><span>available on</span> Google Store</p>
+                                    </a>
+                                </div>
+                                <div class="app-download-btn wow fadeInDown" data-wow-delay="0.4s">
+                                    <!-- Apple Store Btn -->
+                                    <a href="#">
+                                        <i class="fa fa-apple"></i>
+                                        <p class="mb-0"><span>available on</span> Apple Store</p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-    
         </div>
+    </section>
+    <!-- ***** Special Area End ***** -->
 
-    <!-- // end .section -->
-    <!--<div class="section">
-
+    <!-- ***** Awesome Features Start ***** -->
+    <section class="awesome-feature-area bg-white section_padding_0_50 clearfix" id="features">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 offset-lg-6">
-                    <div class="box-icon"><span class="ti-mobile gradient-fill ti-3x"></span></div>
-                    <h2>Discover our App</h2>
-                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati vel
-                        exercitationem eveniet vero maxime ratione </p>
-                    <a href="#" class="btn btn-primary">Read more</a>
+                <div class="col-12">
+                    <!-- Heading Text -->
+                    <div class="section-heading text-center">
+                        <h2>Características increíbles</h2>
+                        <div class="line-shape"></div>
+                    </div>
                 </div>
             </div>
-            <div class="perspective-phone">
-                <img src="images/perspective.png" alt="perspective phone" class="img-fluid">
+
+            <div class="row">
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-calendar" aria-hidden="true"></i>
+                        <h5>Gestión de cancelaciones</h5>
+                        <p>¿Un cliente cancela con horas de antelación? Appointment se encarga de que elija nueva cita y notifica a pacientes en la lista de espera que pudieran acudir en su lugar. No tienes por qué enterarte.</p>
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-comments" aria-hidden="true"></i>
+                        <h5>Notificaciones inteligentes</h5>
+                        <p>Appointment sabe a qué hora es mejor notificar a cada paciente, gracias a su motor de machine learning. Además, lo hace por los canales que tus clientes usan a diario, como Whatsapp.</p>
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-layout" aria-hidden="true"></i>
+                        <h5>Aplicación de gestión progresiva</h5>
+                        <p>Tus clientes disponen de una aplicación web progresiva absolutamente simple desde la que pueden ver próximas citas, modificar, cancelar o reservar</p>
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-time" aria-hidden="true"></i>
+                        <h5>Notificación de retrasos en tiempo real</h5>
+                        <p>Notifica en tiempo real a tus clientes si hay retrasos, evita las largas esperas.</p>
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-8">
+                    <div class="single-feature">
+                        <i class="ti-face-sad" aria-hidden="true"></i>
+                        <h5>Indicador de citas fallidas
+                        </h5>
+                        <p>El objetivo de Appointment es que si el cliente no va a poder venir, cancele con al menos una o dos horas de antelación. 
+                            Si esto ocurre, Appointment puede gestionarlo para rellenar el hueco. Por eso incorpora un indicador de citas no acudidas y no canceladas. Nadie quiere que salga en rojo.
+                        </p>
+                    </div>
+                </div>
             </div>
+
         </div>
+    </section>
+    <!-- ***** Awesome Features End ***** -->
 
-    </div>-->
-    <!-- // end .section -->
-
-
-    <div class="section light-bg">
+    <!-- ***** Video Area Start ***** -->
+    <div class="video-section">
         <div class="container">
-            <div class="section-title">
-                <small>FEATURES</small>
-                <h3>Así te ayuda appointment con...</h3>
-            </div>
-
-            <ul class="nav nav-tabs nav-justified" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link active" data-toggle="tab" href="#communication">Cerrar o abrir agenda</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#schedule">Cancelaciones</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#messages">Ausentismo</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#livechat">Reservas</a>
-                </li>
-            </ul>
-            <div class="tab-content">
-                <div class="tab-pane fade show active" id="communication">
-                    <div class="d-flex flex-column flex-lg-row">
-                        <img src="images/graphic.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
-                        <div>
-
-                            <h2>Communicate with ease</h2>
-                            <p class="lead">Uniquely underwhelm premium outsourcing with proactive leadership skills.
-                            </p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu
-                                pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien.
-                                Vestibulum sit amet mattis ante. Ut placerat dui eu nulla
-                                congue tincidunt ac a nibh. Mauris accumsan pulvinar lorem placerat volutpat. Praesent
-                                quis facilisis elit. Sed condimentum neque quis ex porttitor,
-                            </p>
-                            <p> malesuada faucibus augue aliquet. Sed elit est, eleifend sed dapibus a, semper a eros.
-                                Vestibulum blandit vulputate pharetra. Phasellus lobortis leo a nisl euismod, eu
-                                faucibus justo sollicitudin. Mauris consectetur, tortor
-                                sed tempor malesuada, sem nunc porta augue, in dictum arcu tortor id turpis. Proin
-                                aliquet vulputate aliquam.
-                            </p>
+            <div class="row">
+                <div class="col-12">
+                    <!-- Video Area Start -->
+                    <div class="video-area" style="background-image: url(img/bg-img/video.jpg);">
+                        <div class="video-play-btn">
+                            <a href="https://www.youtube.com/watch?v=f5BBJ4ySgpo" class="video_btn"><i class="fa fa-play" aria-hidden="true"></i></a>
                         </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="schedule">
-                    <div class="d-flex flex-column flex-lg-row">
-                        <div>
-                            <h2>Scheduling when you want</h2>
-                            <p class="lead">Uniquely underwhelm premium outsourcing with proactive leadership skills.
-                            </p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu
-                                pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien.
-                                Vestibulum sit amet mattis ante. Ut placerat dui eu nulla
-                                congue tincidunt ac a nibh. Mauris accumsan pulvinar lorem placerat volutpat. Praesent
-                                quis facilisis elit. Sed condimentum neque quis ex porttitor,
-                            </p>
-                            <p> malesuada faucibus augue aliquet. Sed elit est, eleifend sed dapibus a, semper a eros.
-                                Vestibulum blandit vulputate pharetra. Phasellus lobortis leo a nisl euismod, eu
-                                faucibus justo sollicitudin. Mauris consectetur, tortor
-                                sed tempor malesuada, sem nunc porta augue, in dictum arcu tortor id turpis. Proin
-                                aliquet vulputate aliquam.
-                            </p>
-                        </div>
-                        <img src="images/graphic.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="messages">
-                    <div class="d-flex flex-column flex-lg-row">
-                        <img src="images/graphic.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
-                        <div>
-                            <h2>Realtime Messaging service</h2>
-                            <p class="lead">Uniquely underwhelm premium outsourcing with proactive leadership skills.
-                            </p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu
-                                pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien.
-                                Vestibulum sit amet mattis ante. Ut placerat dui eu nulla
-                                congue tincidunt ac a nibh. Mauris accumsan pulvinar lorem placerat volutpat. Praesent
-                                quis facilisis elit. Sed condimentum neque quis ex porttitor,
-                            </p>
-                            <p> malesuada faucibus augue aliquet. Sed elit est, eleifend sed dapibus a, semper a eros.
-                                Vestibulum blandit vulputate pharetra. Phasellus lobortis leo a nisl euismod, eu
-                                faucibus justo sollicitudin. Mauris consectetur, tortor
-                                sed tempor malesuada, sem nunc porta augue, in dictum arcu tortor id turpis. Proin
-                                aliquet vulputate aliquam.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="livechat">
-                    <div class="d-flex flex-column flex-lg-row">
-                        <div>
-                            <h2>Live chat when you needed</h2>
-                            <p class="lead">Uniquely underwhelm premium outsourcing with proactive leadership skills.
-                            </p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu
-                                pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien.
-                                Vestibulum sit amet mattis ante. Ut placerat dui eu nulla
-                                congue tincidunt ac a nibh. Mauris accumsan pulvinar lorem placerat volutpat. Praesent
-                                quis facilisis elit. Sed condimentum neque quis ex porttitor,
-                            </p>
-                            <p> malesuada faucibus augue aliquet. Sed elit est, eleifend sed dapibus a, semper a eros.
-                                Vestibulum blandit vulputate pharetra. Phasellus lobortis leo a nisl euismod, eu
-                                faucibus justo sollicitudin. Mauris consectetur, tortor
-                                sed tempor malesuada, sem nunc porta augue, in dictum arcu tortor id turpis. Proin
-                                aliquet vulputate aliquam.
-                            </p>
-                        </div>
-                        <img src="images/graphic.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
                     </div>
                 </div>
             </div>
-
-
         </div>
     </div>
-    <!-- // end .section -->
+    <!-- ***** Video Area End ***** -->
 
-    <div class="section">
-
+    <!-- ***** Cool Facts Area Start ***** -->
+    <section class="cool_facts_area clearfix">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <img src="images/dualphone.png" alt="dual phone" class="img-fluid">
+                <!-- Single Cool Fact-->
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="counter-area">
+                            <h3><span class="counter">90</span></h3>
+                        </div>
+                        <div class="cool-facts-content">
+                            <i class="ion-arrow-down-a"></i>
+                            <p>APP <br> DOWNLOADS</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6 d-flex align-items-center">
-                    <div>
-                        <div class="box-icon"><span class="ti-rocket gradient-fill ti-3x"></span></div>
-                        <h2>Launch your App</h2>
-                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati vel
-                            exercitationem eveniet vero maxime ratione </p>
-                        <a href="#" class="btn btn-primary">Read more</a>
+                <!-- Single Cool Fact-->
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="counter-area">
+                            <h3><span class="counter">120</span></h3>
+                        </div>
+                        <div class="cool-facts-content">
+                            <i class="ion-happy-outline"></i>
+                            <p>Happy <br> Clients</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Cool Fact-->
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="counter-area">
+                            <h3><span class="counter">40</span></h3>
+                        </div>
+                        <div class="cool-facts-content">
+                            <i class="ion-person"></i>
+                            <p>ACTIVE <br>ACCOUNTS</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Cool Fact-->
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="counter-area">
+                            <h3><span class="counter">10</span></h3>
+                        </div>
+                        <div class="cool-facts-content">
+                            <i class="ion-ios-star-outline"></i>
+                            <p>TOTAL <br>APP RATES</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Cool Facts Area End ***** -->
+
+    <!-- ***** App Screenshots Area Start ***** -->
+    <section class="app-screenshots-area bg-white section_padding_0_100 clearfix" id="screenshot">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <!-- Heading Text  -->
+                    <div class="section-heading">
+                        <h2>App Screenshots</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <!-- App Screenshots Slides  -->
+                    <div class="app_screenshots_slides owl-carousel">
+                        <div class="single-shot">
+                            <img src="img/scr-img/app-1.jpg" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="img/scr-img/app-2.jpg" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="img/scr-img/app-3.jpg" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="img/scr-img/app-4.jpg" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="img/scr-img/app-5.jpg" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="img/scr-img/app-3.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** App Screenshots Area End *****====== -->
+
+    <!-- ***** Pricing Plane Area Start *****==== -->
+    <section class="pricing-plane-area section_padding_100_70 clearfix" id="pricing">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Heading Text  -->
+                    <div class="section-heading text-center">
+                        <h2>Pricing Plan</h2>
+                        <div class="line-shape"></div>
                     </div>
                 </div>
             </div>
 
-        </div>
-
-    </div>
-    <!-- // end .section -->
-
-
-    <div class="section light-bg">
-
-        <div class="container">
             <div class="row">
-                <div class="col-md-8 d-flex align-items-center">
-                    <ul class="list-unstyled ui-steps">
-                        <li class="media">
-                            <div class="circle-icon mr-4">1</div>
-                            <div class="media-body">
-                                <h5>Create an Account</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu
-                                    pellentesque pretium obcaecati vel exercitationem </p>
+                <!--<div class="col-12 col-md-6 col-lg-3">
+                    <div class="single-price-plan text-center">
+                        <div class="package-plan">
+                            <h5>Starter Plan</h5>
+                            <div class="ca-price d-flex justify-content-center">
+                                <span>$</span>
+                                <h4>29</h4>
                             </div>
-                        </li>
-                        <li class="media my-4">
-                            <div class="circle-icon mr-4">2</div>
-                            <div class="media-body">
-                                <h5>Share with friends</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu
-                                    pellentesque pretium obcaecati vel exercitationem eveniet</p>
+                        </div>
+                        <div class="package-description">
+                            <p>Up to 10 users monthly</p>
+                            <p>Unlimited updates</p>
+                            <p>Free host &amp; domain</p>
+                            <p>24/7 Support</p>
+                            <p>10 Unique Users</p>
+                        </div>
+                        <div class="plan-button">
+                            <a href="#">Select Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="single-price-plan text-center">
+                        <div class="package-plan">
+                            <h5>Basic Plan</h5>
+                            <div class="ca-price d-flex justify-content-center">
+                                <span>$</span>
+                                <h4>49</h4>
                             </div>
-                        </li>
-                        <li class="media">
-                            <div class="circle-icon mr-4">3</div>
-                            <div class="media-body">
-                                <h5>Enjoy your life</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu
-                                    pellentesque pretium obcaecati vel exercitationem </p>
+                        </div>
+                        <div class="package-description">
+                            <p>Up to 10 users monthly</p>
+                            <p>Unlimited updates</p>
+                            <p>Free host &amp; domain</p>
+                            <p>24/7 Support</p>
+                            <p>10 Unique Users</p>
+                        </div>
+                        <div class="plan-button">
+                            <a href="#">Select Plan</a>
+                        </div>
+                    </div>
+                </div>-->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <!-- Package Price  -->
+                    <div class="single-price-plan text-center">
+                        <!-- Package Text  -->
+                        <div class="package-plan">
+                            <h5>S</h5>
+                            <div class="ca-price d-flex justify-content-center">
+                                <span>€</span>
+                                <h4>50</h4>
                             </div>
-                        </li>
-                    </ul>
+                        </div>
+                        <div class="package-description">
+                            <p>Hasta 50 citas diarias</p>
+                            <p>Gestión automatizada de citas</p>
+                            <p>Aplicación progresiva de gestión</p>
+                            <p>Soporte email 12h</p>
+                            <p>Usuarios ilimitados</p>
+                        </div>
+                        <!-- Plan Button  -->
+                        <div class="plan-button">
+                            <a href="#">Select Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <!-- Package Price  -->
+                    <div class="single-price-plan text-center">
+                        <!-- Package Text  -->
+                        <div class="package-plan">
+                            <h5>XL</h5>
+                            <div class="ca-price d-flex justify-content-center">
+                                <span>€</span>
+                                <h4>150</h4>
+                            </div>
+                        </div>
+                        <div class="package-description">
+                            <p>Hasta 200 citas diarias</p>
+                            <p>Gestión automatizada de citas</p>
+                            <p>Aplicación progresiva de gestión</p>
+                            <p>Soporte email 12h</p>
+                            <p>Usuarios ilimitados</p>
+                        </div>
+                        <!-- Plan Button  -->
+                        <div class="plan-button">
+                            <a href="#">Select Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <!-- Package Price  -->
+                    <div class="single-price-plan text-center">
+                        <!-- Package Text  -->
+                        <div class="package-plan">
+                            <h5>Módulo check-in check-out</h5>
+                            <div class="ca-price d-flex justify-content-center">
+                                <span>€</span>
+                                <h4>+30</h4>
+                            </div>
+                        </div>
+                        <div class="package-description">
+                            <p>Up to 10 users monthly</p>
+                            <p>Unlimited updates</p>
+                            <p>Free host &amp; domain</p>
+                            <p>24/7 Support</p>
+                            <p>10 Unique Users</p>
+                        </div>
+                        <!-- Plan Button  -->
+                        <div class="plan-button">
+                            <a href="#">Select Plan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Pricing Plane Area End ***** -->
+
+    <!-- ***** Client Feedback Area Start ***** -->
+    <section class="clients-feedback-area bg-white section_padding_100 clearfix" id="testimonials">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10">
+                    <div class="slider slider-for">
+                        <!-- Client Feedback Text  -->
+                        <div class="client-feedback-text text-center">
+                            <div class="client">
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            </div>
+                            <div class="client-description text-center">
+                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
+                            </div>
+                            <div class="star-icon text-center">
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                            </div>
+                            <div class="client-name text-center">
+                                <h5>Aigars Silkalns</h5>
+                                <p>Ceo Colorlib</p>
+                            </div>
+                        </div>
+                        <!-- Client Feedback Text  -->
+                        <div class="client-feedback-text text-center">
+                            <div class="client">
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            </div>
+                            <div class="client-description text-center">
+                                <p>“ I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
+                            </div>
+                            <div class="star-icon text-center">
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                            </div>
+                            <div class="client-name text-center">
+                                <h5>Jennifer</h5>
+                                <p>Developer</p>
+                            </div>
+                        </div>
+                        <!-- Client Feedback Text  -->
+                        <div class="client-feedback-text text-center">
+                            <div class="client">
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            </div>
+                            <div class="client-description text-center">
+                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job.”</p>
+                            </div>
+                            <div class="star-icon text-center">
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                            </div>
+                            <div class="client-name text-center">
+                                <h5>Helen</h5>
+                                <p>Marketer</p>
+                            </div>
+                        </div>
+                        <!-- Client Feedback Text  -->
+                        <div class="client-feedback-text text-center">
+                            <div class="client">
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            </div>
+                            <div class="client-description text-center">
+                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
+                            </div>
+                            <div class="star-icon text-center">
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                            </div>
+                            <div class="client-name text-center">
+                                <h5>Henry smith</h5>
+                                <p>Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Client Thumbnail Area -->
+                <div class="col-12 col-md-6 col-lg-5">
+                    <div class="slider slider-nav">
+                        <div class="client-thumbnail">
+                            <img src="img/bg-img/client-3.jpg" alt="">
+                        </div>
+                        <div class="client-thumbnail">
+                            <img src="img/bg-img/client-2.jpg" alt="">
+                        </div>
+                        <div class="client-thumbnail">
+                            <img src="img/bg-img/client-1.jpg" alt="">
+                        </div>
+                        <div class="client-thumbnail">
+                            <img src="img/bg-img/client-2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Client Feedback Area End ***** -->
+
+    <!-- ***** CTA Area Start ***** -->
+    <section class="our-monthly-membership section_padding_50 clearfix">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <div class="membership-description">
+                        <h2>Join our Monthly Membership</h2>
+                        <p>Find the perfect plan for you — 100% satisfaction guaranteed.</p>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <img src="images/iphonex.png" alt="iphone" class="img-fluid">
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-    <!-- // end .section -->
-
-
-    <div class="section">
-        <div class="container">
-            <div class="section-title">
-                <small>TESTIMONIALS</small>
-                <h3>What our Customers Says</h3>
-            </div>
-
-            <div class="testimonials owl-carousel">
-                <div class="testimonials-single">
-                    <img src="images/client.png" alt="client" class="client-img">
-                    <blockquote class="blockquote">Uniquely streamline highly efficient scenarios and 24/7 initiatives.
-                        Conveniently embrace multifunctional ideas through proactive customer service. Distinctively
-                        conceptualize 2.0 intellectual capital via user-centric partnerships.</blockquote>
-                    <h5 class="mt-4 mb-2">Crystal Gordon</h5>
-                    <p class="text-primary">United States</p>
-                </div>
-                <div class="testimonials-single">
-                    <img src="images/client.png" alt="client" class="client-img">
-                    <blockquote class="blockquote">Uniquely streamline highly efficient scenarios and 24/7 initiatives.
-                        Conveniently embrace multifunctional ideas through proactive customer service. Distinctively
-                        conceptualize 2.0 intellectual capital via user-centric partnerships.</blockquote>
-                    <h5 class="mt-4 mb-2">Crystal Gordon</h5>
-                    <p class="text-primary">United States</p>
-                </div>
-                <div class="testimonials-single">
-                    <img src="images/client.png" alt="client" class="client-img">
-                    <blockquote class="blockquote">Uniquely streamline highly efficient scenarios and 24/7 initiatives.
-                        Conveniently embrace multifunctional ideas through proactive customer service. Distinctively
-                        conceptualize 2.0 intellectual capital via user-centric partnerships.</blockquote>
-                    <h5 class="mt-4 mb-2">Crystal Gordon</h5>
-                    <p class="text-primary">United States</p>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-    <!-- // end .section -->
-
-
-    <div class="section light-bg" id="gallery">
-        <div class="container">
-            <div class="section-title">
-                <small>GALLERY</small>
-                <h3>App Screenshots</h3>
-            </div>
-
-            <div class="img-gallery owl-carousel owl-theme">
-                <img src="images/screen1.jpg" alt="image">
-                <img src="images/screen2.jpg" alt="image">
-                <img src="images/screen3.jpg" alt="image">
-                <img src="images/screen1.jpg" alt="image">
-            </div>
-
-        </div>
-
-    </div>
-    <!-- // end .section -->
-
-
-
-
-
-    <div class="section" id="pricing">
-        <div class="container">
-            <div class="section-title">
-                <small>PRICING</small>
-                <h3>Upgrade to Pro</h3>
-            </div>
-
-            <div class="card-deck">
-                <div class="card pricing">
-                    <div class="card-head">
-                        <small class="text-primary">PERSONAL</small>
-                        <span class="price">$14<sub>/m</sub></span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <div class="list-group-item">10 Projects</div>
-                        <div class="list-group-item">5 GB Storage</div>
-                        <div class="list-group-item">Basic Support</div>
-                        <div class="list-group-item"><del>Collaboration</del></div>
-                        <div class="list-group-item"><del>Reports and analytics</del></div>
-                    </ul>
-                    <div class="card-body">
-                        <a href="#" class="btn btn-primary btn-lg btn-block">Choose this Plan</a>
-                    </div>
-                </div>
-                <div class="card pricing popular">
-                    <div class="card-head">
-                        <small class="text-primary">FOR TEAMS</small>
-                        <span class="price">$29<sub>/m</sub></span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <div class="list-group-item">Unlimited Projects</div>
-                        <div class="list-group-item">100 GB Storage</div>
-                        <div class="list-group-item">Priority Support</div>
-                        <div class="list-group-item">Collaboration</div>
-                        <div class="list-group-item">Reports and analytics</div>
-                    </ul>
-                    <div class="card-body">
-                        <a href="#" class="btn btn-primary btn-lg btn-block">Choose this Plan</a>
-                    </div>
-                </div>
-                <div class="card pricing">
-                    <div class="card-head">
-                        <small class="text-primary">ENTERPRISE</small>
-                        <span class="price">$249<sub>/m</sub></span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <div class="list-group-item">Unlimited Projects</div>
-                        <div class="list-group-item">Unlimited Storage</div>
-                        <div class="list-group-item">Collaboration</div>
-                        <div class="list-group-item">Reports and analytics</div>
-                        <div class="list-group-item">Web hooks</div>
-                    </ul>
-                    <div class="card-body">
-                        <a href="#" class="btn btn-primary btn-lg btn-block">Choose this Plan</a>
+                    <div class="get-started-button wow bounceInDown" data-wow-delay="0.5s">
+                        <a href="#">Get Started</a>
                     </div>
                 </div>
             </div>
-            <!-- // end .pricing -->
-
-
         </div>
+    </section>
+    <!-- ***** CTA Area End ***** -->
 
-    </div>
-    <!-- // end .section -->
-
-
-    <div class="section pt-0">
-        <div class="container">
-            <div class="section-title">
-                <small>FAQ</small>
-                <h3>Frequently Asked Questions</h3>
-            </div>
-
-            <div class="row pt-4">
-                <div class="col-md-6">
-                    <h4 class="mb-3">Can I try before I buy?</h4>
-                    <p class="light-font mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum,
-                        urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien.
-                        Vestibulum sit amet mattis ante. </p>
-                    <h4 class="mb-3">What payment methods do you accept?</h4>
-                    <p class="light-font mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum,
-                        urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien.
-                        Vestibulum sit amet mattis ante. </p>
-
-                </div>
-                <div class="col-md-6">
-                    <h4 class="mb-3">Can I change my plan later?</h4>
-                    <p class="light-font mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum,
-                        urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien.
-                        Vestibulum sit amet mattis ante. </p>
-                    <h4 class="mb-3">Do you have a contract?</h4>
-                    <p class="light-font mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum,
-                        urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien.
-                        Vestibulum sit amet mattis ante. </p>
-
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <!-- // end .section -->
-
-
-
-    <div class="section bg-gradient">
-        <div class="container">
-            <div class="call-to-action">
-
-                <div class="box-icon"><span class="ti-mobile gradient-fill ti-3x"></span></div>
-                <h2>Download Anywhere</h2>
-                <p class="tagline">Available for all major mobile and desktop platforms. Rapidiously visualize optimal
-                    ROI rather than enterprise-wide methods of empowerment. </p>
-                <div class="my-4">
-
-                    <a href="#" class="btn btn-light"><img src="images/appleicon.png" alt="icon"> App Store</a>
-                    <a href="#" class="btn btn-light"><img src="images/playicon.png" alt="icon"> Google play</a>
-                </div>
-                <p class="text-primary"><small><i>*Works on iOS 10.0.5+, Android Kitkat and above. </i></small></p>
-            </div>
-        </div>
-
-    </div>
-    <!-- // end .section -->
-
-    <div class="light-bg py-5" id="contact">
+    <!-- ***** Our Team Area Start ***** -->
+    <section class="our-Team-area bg-white section_padding_100_50 clearfix" id="team">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 text-center text-lg-left">
-                    <p class="mb-2"> <span class="ti-location-pin mr-2"></span> 1485 Pacific St, Brooklyn, NY 11216 USA</p>
-                    <div class=" d-block d-sm-inline-block">
-                        <p class="mb-2">
-                            <span class="ti-email mr-2"></span> <a class="mr-4" href="mailto:support@mobileapp.com">support@mobileapp.com</a>
-                        </p>
-                    </div>
-                    <div class="d-block d-sm-inline-block">
-                        <p class="mb-0">
-                            <span class="ti-headphone-alt mr-2"></span> <a href="tel:51836362800">518-3636-2800</a>
-                        </p>
-                    </div>
-
-                </div>
-                <div class="col-lg-6">
-                    <div class="social-icons">
-                        <a href="#"><span class="ti-facebook"></span></a>
-                        <a href="#"><span class="ti-twitter-alt"></span></a>
-                        <a href="#"><span class="ti-instagram"></span></a>
+                <div class="col-12 text-center">
+                    <!-- Heading Text  -->
+                    <div class="section-heading">
+                        <h2>Our Team</h2>
+                        <div class="line-shape"></div>
                     </div>
                 </div>
             </div>
-
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="single-team-member">
+                        <div class="member-image">
+                            <img src="img/team-img/team-1.jpg" alt="">
+                            <div class="team-hover-effects">
+                                <div class="team-social-icon">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member-text">
+                            <h4>Jackson Nash</h4>
+                            <p>Tax Advice</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="single-team-member">
+                        <div class="member-image">
+                            <img src="img/team-img/team-2.jpg" alt="">
+                            <div class="team-hover-effects">
+                                <div class="team-social-icon">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member-text">
+                            <h4>Alex Manning</h4>
+                            <p>CEO-Founder</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="single-team-member">
+                        <div class="member-image">
+                            <img src="img/team-img/team-3.jpg" alt="">
+                            <div class="team-hover-effects">
+                                <div class="team-social-icon">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member-text">
+                            <h4>Ollie Schneider</h4>
+                            <p>Business Planner</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="single-team-member">
+                        <div class="member-image">
+                            <img src="img/team-img/team-4.jpg" alt="">
+                            <div class="team-hover-effects">
+                                <div class="team-social-icon">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member-text">
+                            <h4>Roger West</h4>
+                            <p>Financer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
+    <!-- ***** Our Team Area End ***** -->
 
-    </div>
-    <!-- // end .section -->
-    <footer class="my-5 text-center">
-        <!-- Copyright removal is not prohibited! -->
-        <p class="mb-2"><small>COPYRIGHT © 2017. ALL RIGHTS RESERVED. MOBAPP TEMPLATE BY <a href="https://colorlib.com">COLORLIB</a></small></p>
+    <!-- ***** Contact Us Area Start ***** -->
+    <section class="footer-contact-area section_padding_100 clearfix" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Heading Text  -->
+                    <div class="section-heading">
+                        <h2>Get in touch with us!</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                    <div class="footer-text">
+                        <p>We'll send you epic weekly blogs, whitepapers and things to make your app startup thrive, all FREE!</p>
+                    </div>
+                    <div class="address-text">
+                        <p><span>Address:</span> 40 Baria Sreet 133/2 NewYork City, US</p>
+                    </div>
+                    <div class="phone-text">
+                        <p><span>Phone:</span> +11-225-888-888-66</p>
+                    </div>
+                    <div class="email-text">
+                        <p><span>Email:</span> info.deercreative@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <!-- Form Start-->
+                    <div class="contact_from">
+                        <form action="#" method="post">
+                            <!-- Message Input Area Start -->
+                            <div class="contact_input_area">
+                                <div class="row">
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
+                                        </div>
+                                    </div>
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" name="email" id="email" placeholder="Your E-mail" required>
+                                        </div>
+                                    </div>
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Your Message *" required></textarea>
+                                        </div>
+                                    </div>
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-12">
+                                        <button type="submit" class="btn submit-btn">Send Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Message Input Area End -->
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Contact Us Area End ***** -->
 
-        <small>
-            <a href="#" class="m-2">PRESS</a>
-            <a href="#" class="m-2">TERMS</a>
-            <a href="#" class="m-2">PRIVACY</a>
-        </small>
+    <!-- ***** Footer Area Start ***** -->
+    <footer class="footer-social-icon text-center section_padding_70 clearfix">
+        <!-- footer logo -->
+        <div class="footer-text">
+            <h2>Ca.</h2>
+        </div>
+        <!-- social icon-->
+        <div class="footer-social-icon">
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="active fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+        </div>
+        <div class="footer-menu">
+            <nav>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Terms &amp; Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Foooter Text-->
+        <div class="copyright-text">
+            <!-- ***** Removing this text is now allowed! This template is licensed under CC BY 3.0 ***** -->
+            <p>Copyright ©2017 Ca. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+        </div>
     </footer>
+    <!-- ***** Footer Area Start ***** -->
 
-    <!-- jQuery and Bootstrap -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <!-- Plugins JS -->
-    <script src="js/owl.carousel.min.js"></script>
-    <!-- Custom JS -->
-    <script src="js/script.js"></script>
-
+    <!-- Jquery-2.2.4 JS -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap-4 Beta JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins JS -->
+    <script src="js/plugins.js"></script>
+    <!-- Slick Slider Js-->
+    <script src="js/slick.min.js"></script>
+    <!-- Footer Reveal JS -->
+    <script src="js/footer-reveal.min.js"></script>
+    <!-- Active JS -->
+    <script src="js/active.js"></script>
 </body>
 
 </html>
